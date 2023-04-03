@@ -32,7 +32,7 @@ fastapi、其他同Bloom_FineTune项目相同
 
 
 模型效果
-
+```
 {
   "message": " 好的",
   "history": [
@@ -58,4 +58,5 @@ fastapi、其他同Bloom_FineTune项目相同
     "Doctor: 好的"
   ]
 }
+```
 
