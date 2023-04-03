@@ -9,7 +9,7 @@ from torch.utils.data import random_split
 from transformers import AutoTokenizer, TrainingArguments, Trainer, AutoModelForCausalLM
 
 
-model_name = "/workspace/Xuxiangjun/Model_TH/Bloom_3B/"
+model_name = "/Model_TH/Bloom_3B/"
 torch.manual_seed(42)
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
