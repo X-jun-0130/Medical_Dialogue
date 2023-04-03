@@ -22,10 +22,10 @@ fastapi、其他同Bloom_FineTune项目相同
 
 
 #### 对话模型预训练数据处理
-``
+
 添加角色信息：Patient、Doctor
 
 将数据依次拼接："Patient:咳嗽半个月，吃药好了，突然又发高烧，吃了药后老是反复发烧Doctor: 可以先做血常规CRP，支原体，过敏源检查Patient: crp是什么检查Doctor: C－反应蛋白排除有没有炎症。Patient: 前几天查了个c反正蛋白质室13.2Doctor: CRP高，应该正规使用消炎药，7天后复查"
 
 添加首尾符号进入模型
-``
+
